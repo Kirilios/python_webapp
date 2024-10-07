@@ -11,10 +11,3 @@ def test_function():
 @app.route('/hello/world')
 def hello():
     return 'HELLO WORLD!'
-
-page_counter = 0
-@app.route('/endpoint/counter')
-def func():
-    global page_counter
-    page_counter += 1
-    return f'Страница была посещена {page_counter} раз'
