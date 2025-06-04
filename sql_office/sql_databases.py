@@ -1,3 +1,5 @@
+'''Ссылка на схему БД: https://drawdb.vercel.app/editor?shareId=9e9f40e4afe942771fa2f31dfd6497c7'''
+
 import sqlite3
 
 class Database:
